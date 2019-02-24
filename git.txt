@@ -1,0 +1,29 @@
+Initial commit
+
+1. Configure the git first
+	Set the email and name first
+
+2. Create a local repository
+	
+3. Commit the changes to your local repository
+
+4. Set the remote origin for your local repository
+
+5. Verify the remote repository url
+
+
+
+
+***************************************************************
+create a new repository on the command line
+echo "# Medioclinic" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/naresh436/Medioclinic.git
+git push -u origin master
+
+
+push an existing repository from the command line
+git remote add origin https://github.com/naresh436/Medioclinic.git
+git push -u origin master
